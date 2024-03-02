@@ -13,6 +13,13 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+.navebar {
+    margin: 2% 2% 0% 0%;
+    display: flex;
+    gap: 5%;   
+    box-sizing: border-box;
+}
+
 body{
     width: 100vw;
 }
