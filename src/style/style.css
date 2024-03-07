@@ -19,7 +19,15 @@
     gap: 5%;   
     box-sizing: border-box;
 }
+.fundodosite{
+    background-color:gray;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 1% 2% 0% 1%;
+    display: flex;
 
+}
 body{
     width: 100vw;
 }
