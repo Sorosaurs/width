@@ -21,30 +21,29 @@
 }
 .fundodosite{
     background-color: grey;
+    width: 100%;
+    height: auto;
     color: black;
     padding: 5% 0% 5% 0%;
     display: flex;
     justify-content: center;
 }
 .descricao-do-desenho{
-    flex-wrap: wrap;
     background-color: aqua;
+    width: 30vw;
     height: auto;
-    width: 30%;
     display: flex;
-    align-content: center;
-    justify-content: center;
     flex-direction: column;
-}
-.descricao-do-desenho h1{
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px 0px 10px;
 }
 .desenho{
-    width: 200px;
-    align-items:center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 .desenho figcaption{
     align-self:flex-start
@@ -52,4 +51,16 @@
 .desenho img{
     width: 100%;
     height: auto;
+}
+.rodape{
+    background-color: yellow;
+    color: black;
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+}
+.rodape p{
+    width: 80%;
 }
